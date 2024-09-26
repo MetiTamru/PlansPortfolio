@@ -24,7 +24,7 @@ function App() {
         {/* Fallback route for undefined paths */}
         <Route path="*" element={<Services />} />
         <Route path="*" element={<Pricing />} />
-        <Route path="/pricing" element={<Home />} />
+        <Route path="/pricing" element={<Pricing />} />
        
       </Routes>
       </div>

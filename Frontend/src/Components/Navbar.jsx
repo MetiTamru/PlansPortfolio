@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">YourLogo</h1>
+            <Link to={"/"} className="text-2xl font-bold text-primary">INNOVATE</Link>
           </div>
 
           {/* Links */}

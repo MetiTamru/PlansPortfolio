@@ -1,5 +1,6 @@
 // src/Pages/Home.jsx
 import React from "react";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   const basic = [
@@ -36,6 +37,7 @@ const Home = () => {
   ];
 
   return (
+    <>
     <div className="flex flex-col items-center justify-center min-h-screen py-20 text-white">
       <h1 className="text-3xl pt-16 font-bold mb-12">Our Pricing Plans</h1>
       <p className="w-2/3 text-center text-gray-300">
@@ -97,6 +99,8 @@ const Home = () => {
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
